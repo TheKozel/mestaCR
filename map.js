@@ -14,11 +14,11 @@ const VYCHOZI_ZOOM = 7;
 
 const mapa = L.map("mapa").setView(STRED_CR, VYCHOZI_ZOOM);
 
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  maxZoom: 19,
-  attribution:
-    '&copy; <a href="https://www.openstreetmap.org/copyright">přispěvatelé OpenStreetMap</a>',
-}).addTo(mapa);
+L.tileLayer('https://stadiamaps.com{z}/{x}/{y}{r}.png', {
+  maxZoom: 20,
+  attribution: '&copy; <a href="https://stadiamaps.com">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+}).addTo(map);
+
 
 /* ==========================================================
    Pomocné funkce
