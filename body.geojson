@@ -24,6 +24,18 @@
         "type": "Point",
         "coordinates": [14.4378, 50.0755]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "nazev": "Šumperk",
+        "popisek": "Hlavní město správných lidí je bránou dfo kouzelného Jeseníku. Najdete tu spoustu hospod, krásné náměstí a diskgolfové hřiště v lesoparku, které je nemilosrdné a nic neodpouští."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.97061, 49.96528]
+      }
     }
   ]
 }
