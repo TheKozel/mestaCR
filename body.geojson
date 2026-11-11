@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "nazev": "Olomouc",
+        "popisek": "Historické centrum Moravy se sídlem Univerzity Palackého. Známá je Sloupem Nejsvětější Trojice, který patří mezi památky UNESCO."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [17.2509, 49.5938]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "nazev": "Praha",
+        "popisek": "Hlavní město České republiky na řece Vltavě. Najdete tu Pražský hrad, Karlův most a historické jádro zapsané na seznam UNESCO."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4378, 50.0755]
+      }
+    }
+  ]
+}
